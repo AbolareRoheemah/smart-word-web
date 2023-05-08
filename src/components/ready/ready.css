@@ -1,0 +1,8 @@
+.ready-ctn {
+    background-image: url('../../../public/assets/images/pngs/ready.png');
+    background-size: contain;
+    height: 49.5vh;
+    max-height: 50vh;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
