@@ -1,12 +1,14 @@
 import Header from './components/Header';
 import './App.css';
-import Jumbotron from './components/Jumbotron';
+import Home from './pages/Home';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Jumbotron />
+      <Home />
+      <Footer />
     </div>
   );
 }
