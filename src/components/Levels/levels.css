@@ -1,0 +1,13 @@
+.level-ctn {
+    background-color: #232D37;
+    height: auto;
+    width: 100%;
+    min-width: 100vw;
+    min-height: 50vh;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0 10vh;
+}
