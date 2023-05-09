@@ -8,12 +8,10 @@ import { Route, Routes } from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-      <Header />
       <Routes>
         <Route exact path='/' element={<Home />} />
-        <Route exact path='/games' element={<Game />} />
+        <Route exact path='/game' element={<Game />} />
       </Routes>
-      <Footer />
     </div>
   );
 }
