@@ -1,0 +1,177 @@
+/*.play-for-free-section {
+    background-color: #d0d0d0;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .play-for-free-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .play-for-free-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+  */
+
+
+  /*.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f2f2f2;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .hero-button:hover {
+    background-color: #388e3c;
+  }
+ */ 
+
+ .image-section {
+  background-color: #121212;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+
+  
+}
+
+.heading-container h2 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+
+.letters {
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.hero-button {
+  background-color: black;
+  color: #F4B8A4;;
+  font-family: 'AbdoMaster-Bold';
+  border: 10px;
+  margin: 60px;
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+
+  box-sizing: border-box;
+
+/* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 80px;
+  gap: 10px;
+
+  position: flex;
+  width: 315px;
+  height: 56px;
+  left: 0px;
+  
+
+/* orange/default */
+
+  border: 1px solid #F4B8A4;
+  border-radius: 8px;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ForFree-logo{
+  height: 371px;
+  width: 434px;
+  left: 752px;
+  top: 52px;
+  border-radius: 0px;
+}
+
+.ForFreeIcon-icon{
+  position: absolute;
+  left: 23.36%;
+  right: 16.63%;
+  top: 19.65%;
+  bottom: 19.65%;
+
+/* orange/default */
+
+  background: #F4B8A4;
+}
+
+/*.hero-button {
+  background-image: url('./Images/ForFreeIcon.png');
+  background-size: cover;
+  background-position: center center;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.hero-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+*/
