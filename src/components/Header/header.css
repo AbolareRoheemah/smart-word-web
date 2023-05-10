@@ -17,8 +17,9 @@
     align-items: center;
     flex-basis: 50%;
 }
-.links-ctn > p {
+.links-ctn > a {
     /* font-family: 'Inter'; */
+    text-decoration: none;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;

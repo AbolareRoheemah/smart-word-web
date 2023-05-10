@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './header.css';
 
 export default function Header() {
@@ -8,11 +9,11 @@ export default function Header() {
             <img src="../../assets/images/pngs/smart-word-logo.png" alt="Logo" />
         </div>
         <div className="links-ctn">
-            <p className="link-tags">Home</p>
-            <p className="link-tags">Games</p>
-            <p className="link-tags">Marketplace</p>
-            <p className="link-tags">Team</p>
-            <p className="link-tags">Community</p>
+            <NavLink className="link-tags" to="/">Home</NavLink>
+            <NavLink className="link-tags" to="/game">Games</NavLink>
+            <NavLink className="link-tags" to="/">Marketplace</NavLink>
+            <NavLink className="link-tags" to="/">Team</NavLink>
+            <NavLink className="link-tags" to="/">Community</NavLink>
         </div>
         <div className="btn-div">Connect wallet</div>
     </div>
