@@ -12,9 +12,9 @@ export default function Home() {
     <div className='home-ctn'>
         <Header />
         <Jumbotron />
-        <About />
+        {/* <About /> */}
         <Levels />
-        <Ready />
+        {/* <Ready /> */}
       <Footer />
     </div>
   )

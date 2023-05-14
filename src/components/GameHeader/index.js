@@ -1,11 +1,15 @@
 import React from 'react';
 import './gameheader.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 export default function GameHeader() {
+    const navigate = useNavigate()
+    const handleRoute = () => {
+        navigate("/")
+    }
   return (
     <div className='header-ctn'>
-        <div className="logo-ctn">
+        <div className="logo-ctn" onClick={handleRoute}>
             <img src="../../assets/images/pngs/smart-word-logo.png" alt="Logo" />
         </div>
         <div className="links-ctn">

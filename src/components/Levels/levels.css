@@ -7,7 +7,83 @@
     cursor: pointer;
     color: #fff;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10vh 0 10vh;
+    padding: 10vh 0;
+}
+.level-ctn > p {
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    letter-spacing: -0.7px;
+    color: #FFFFFF;
+}
+.level-text {
+    /* font-family: 'AbdoMaster-Bold'; */
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.levels-smalls {
+    font-weight: 400;
+    font-size: 16px;
+    width: 57%;
+}
+.level-types-ctn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    margin-top: 5vh;
+    text-align: center;
+    flex-flow: wrap;
+}
+.level-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -1.7px;
+    color: #FFFFFF;
+}
+.level-types .img {
+    position: relative;
+    animation: ripple-body 1.7s infinite linear both;
+}
+.level-types:hover .img::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #7990a7;
+    border-radius: 30px;
+    animation: ripple 1s infinite linear;
+}
+
+@keyframes ripple {
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+@keyframes ripple-body {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.01);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
